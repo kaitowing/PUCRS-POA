@@ -11,16 +11,7 @@ Foi implementado um algoritmo guloso para resolver o problema. O algoritmo calcu
 A solução foi implementada em Java, aproveitando uma fila de prioridade para otimizar a ordenação dos empréstimos. Foram realizadas algumas otimizações para tornar o cálculo mais eficiente, como pré-calcular as potências das taxas de juros.
 
 ## Uso
-Para executar o algoritmo com um conjunto de taxas de juros, basta chamar a função ordemPagamentoEmprestimos(taxasJuros) e passar as taxas de juros desejadas como argumento. Se quiser apenas testálo com taxas aleatória apenas compile usando o comando `javac App.java` e depois o comando ´java App [algoritmo] [numero de casos de teste]´. Temos como argumentos apenas 'heap' e 'quick', cada um respectivamente irá utilizar um heapsort e um quicksort na contrução da solução.
-
-- Exemplo de uso:
-
-´java
-Copy code
-public static void main(String[] args) {
-    double[] taxasJuros = {1.1, 1.2, 1.05, 1.15};
-    ordemPagamentoEmprestimos(taxasJuros);
-}´
+Para executar o algoritmo com um conjunto de taxas de juros, basta chamar a função ordemPagamentoEmprestimos(taxasJuros) e passar as taxas de juros desejadas como argumento. Se quiser apenas testálo com taxas aleatória apenas compile usando o comando `javac App.java` e depois o comando `java App [algoritmo] [numero de casos de teste]` . Temos como argumentos apenas 'heap' e 'quick', cada um respectivamente irá utilizar um heapsort e um quicksort na contrução da solução.
 
 ## Licença
 Este projeto está licenciado sob a licença MIT - consulte o arquivo LICENSE para obter detalhes.
